@@ -11,3 +11,6 @@ console.log(typeof(arr));
 undefined, string, number 는 모두 기본 자료형(primitive type) 입니다.
 
 // sjshin_ver1
+// 4. object
+// interface ArrayType { arr : num []; }
+// const arr = [100, 200, 300];
