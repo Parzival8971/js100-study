@@ -18,8 +18,10 @@ console.log(nums);
 
 //sjshin_ver2
 const nums2 = nums.slice(0, 3);
-console.log(nums2);
+console.log(nums2); // [ 100, 200, 300 ]
+console.log(nums); //[ 100, 200, 300, 400, 500 ]
 
 //sjshin_ver3
 const nums3 = nums.splice(0, 3);
-console.log(nums3);
+console.log(nums3); //[ 100, 200, 300 ]
+console.log(nums); //[ 400, 500 ]

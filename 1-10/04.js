@@ -5,6 +5,8 @@
 // 4)  입력 : a = [1, 2, 3],   출력 : object
 
 // Answer
-//Omuing_ver1 
+//Omuing_ver1
 
 // sjshin_ver1
+// 2)  입력 : a = 2.22,   출력 : boolean
+// a = true or a = false
