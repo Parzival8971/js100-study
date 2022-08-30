@@ -9,6 +9,7 @@ console.log(typeof arr);
 // Answer
 //Omuing_ver1
 // undefined, string, number 는 모두 기본 자료형(primitive type) 입니다.
+// 4번 오브젝트 타입입니다.
 
 // sjshin_ver1
 // 4. object
