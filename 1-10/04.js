@@ -6,6 +6,7 @@
 
 // Answer
 //Omuing_ver1
+// 정답 2번 입니다.
 
 // sjshin_ver1
 // 2)  입력 : a = 2.22,   출력 : boolean
