@@ -8,6 +8,11 @@ console.log(a + b);
 
 // Answer
 //Omuing_ver1
+// 처음 i 는 1 이니까
+// a += i 는 ? 10 + 1 = 11 나옴
+// 다음 i는 3이니까
+// a += i는 ? 11 + 3 = 14 나옴
+// 14+ 2 = 16 이거 맞나?
 
 // sjshin_ver1
 //for문 반복
