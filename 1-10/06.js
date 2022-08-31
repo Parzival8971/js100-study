@@ -7,6 +7,8 @@
 // 5)  undefined
 
 // Answer
+//Omuing_ver1
+// 2번 정수 true
 
 //sjshin  : 2번
 // NaN, "", 0, undefined
