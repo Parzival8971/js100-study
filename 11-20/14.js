@@ -1,0 +1,7 @@
+// Q 
+
+// Answer
+//Omuing
+
+
+//sjshin
