@@ -7,7 +7,7 @@
 출력 : 안녕하세요. 저는 김다정입니다.
 
 // Answer
-//Omuing => 4자리에 숫자 바꿔서 넣으면 됨
+//Omuing
 const nickname = "신형만"
 console.log(`안녕.나는 대출 320개월 남은 짱구 아빠 ${nickname}이야`)
 
