@@ -16,3 +16,7 @@ console.log(d['weight']); // []대괄호 접근은 ''를 써줘야 함. 이 부�
 console.log(d[example]); // 왼쪽 처럼 접근불가능 ''로 감싸줘야함. 저것은 변수명 접근임
 
 //sjshin
+
+
+//sePark
+//weight는 84가 나온다! 마지막에 할당해분 값!

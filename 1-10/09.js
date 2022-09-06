@@ -18,3 +18,8 @@ var result = year.concat('/', month, '/', day, ' ', hour, ':', minute, ':', seco
 // 허허... 그냥 이렇게 때려버린다구? 쉽고 아주 좋아!! 캬컄
 
 //sjshin
+
+
+//sePark
+let result = `${year}/${month}/${day} ${hour}:${minute}:${second}`;
+console.log(result)

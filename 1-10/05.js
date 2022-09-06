@@ -20,3 +20,10 @@ console.log(a + b);
 // i=3 : +2 증가 a = 14
 // i=5 반복 종료
 console.log(a + b); // 14 + 2 = 16
+
+
+//sePark
+//최초 i = 1, a + i = 11
+//두번째 i = 3, a + i = 14
+//i < 5 라서  for문 종료
+//console.log( 14 + 2)

@@ -26,3 +26,20 @@ for(let i=1; i <= stack; i++) {
 }
 
 //sjshin
+
+
+//sePark
+// let tree = 5;
+
+// for(let i = 0; i < tree; i++){
+//   let star = '';
+//   let empty= ''
+//   for(let j = 4; j >i ; j--){
+//     empty += ' ';
+//   }
+//   for(let k = 0; k <= (i*2); k++){
+//     star += '*'
+//   }
+//    console.log(empty + star)
+// }
+
