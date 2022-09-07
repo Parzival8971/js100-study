@@ -16,3 +16,23 @@ let numbers = number.push(3)
 console.log(guardians[number-1])
 
 //sjshin
+
+
+
+//🌸 sePark 🌸
+//풀이 1
+// let planet = [
+//   "수성", "금성", "지구", "화성", "목성", "토성", "천왕성", "해왕성"]
+//   let i = "";
+//   i = 1;
+//   console.log(planet[i - 1])
+
+//풀이 2
+// let planet = [
+//   "수성", "금성", "지구", "화성", "목성", "토성", "천왕성", "해왕성"]
+   
+//   function choosePlanet (i) {
+//     console.log(planet[i - 1])
+//   }
+  
+//   choosePlanet(3)

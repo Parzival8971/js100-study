@@ -22,7 +22,7 @@ console.log(a + b);
 console.log(a + b); // 14 + 2 = 16
 
 
-//sePark
+//🌸 sePark 🌸
 //최초 i = 1, a + i = 11
 //두번째 i = 3, a + i = 14
 //i < 5 라서  for문 종료

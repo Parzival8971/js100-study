@@ -11,5 +11,5 @@
 // 2)  입력 : a = 2.22,   출력 : boolean
 // a = true or a = false
 
-//sePark
+//🌸 sePark 🌸
 // 2번 출력: number

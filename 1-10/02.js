@@ -12,6 +12,6 @@ console.log(arr);
 const arr2 = arr.splice(2, 0, 10000);
 console.log(arr);
 
-//sePark
+//🌸 sePark 🌸
 arr.splice(2, 0, 10000);
 console.log(arr)

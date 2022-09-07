@@ -21,3 +21,17 @@ if( number[4-1]%3 === 0) {
 }
 
 //sjshin
+
+
+
+
+//🌸 sePark 🌸
+// function numberGame(n) {
+//   if (n % 3 === 0){
+//     console.log('짝')
+//   }else {
+//     console.log(n)
+//   }
+// } 
+// numberGame(6) //'짝' 출력
+// numbermber(4) // 4 출력

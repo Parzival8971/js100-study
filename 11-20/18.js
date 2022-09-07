@@ -20,3 +20,15 @@ for(let i=0; i<scores.length; i++) {
 console.log(Math.floor(sum/scores.length));
 
 //sjshin
+
+
+
+
+//🌸 sePark 🌸
+// function average(sub1, sub2, sub3) {
+//   let sum = sub1 + sub2 + sub3
+//   console.log(Math.floor(sum / 3))
+// }
+
+// average(78, 35, 23) => 45
+// average(89, 98, 45) => 77

@@ -20,6 +20,6 @@ var result = year.concat('/', month, '/', day, ' ', hour, ':', minute, ':', seco
 //sjshin
 
 
-//sePark
+//🌸 sePark 🌸
 let result = `${year}/${month}/${day} ${hour}:${minute}:${second}`;
 console.log(result)
