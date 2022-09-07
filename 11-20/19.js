@@ -11,3 +11,11 @@ console.log(Math.pow(parseInt(num[0],10),parseInt(num[1],10)))
 
 
 //🌸 sePark 🌸
+function multiple(a, b) {
+  for(let i = 0; i < b; i++){
+    a = a * a
+  }
+  console.log(a)
+}
+
+multiple(2, 6)
