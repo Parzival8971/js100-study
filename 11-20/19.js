@@ -6,5 +6,13 @@
 const num = ["2", "6"]
 console.log(Math.pow(parseInt(num[0],10),parseInt(num[1],10)))
 //Omuing 1
+function free(a,b) {
+  let result = 1;
+  for(let i=0; i<b; i++) {
+    result = result * a
+  }
+  console.log(result)
+}
+free(2, 6)
 
 //sjshin
