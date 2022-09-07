@@ -14,3 +14,6 @@ let valueSecond = parseInt(nums[0],10)%parseInt(nums[1],10)
 console.log(valueFirst, valueSecond)
 
 //sjshin
+
+
+// 🌸 sePark 🌸
