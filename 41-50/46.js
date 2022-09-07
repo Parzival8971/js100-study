@@ -5,6 +5,20 @@
 // 각 자리의 숫자를 더하면 21입니다. (1+0+1+1+1+2+1+3+1+4+1+5 = 21)
 
 // Answer
-//Omuing 
+//Omuing => 저 forEach부분과 while부분 공부 계속해야할듯 이해 좀 안됨
+let arr = [];
+let total = 0;
+for(let i=0; i<20; i++) {
+	arr[i] = i + 1
+}
+  console.log(arr)
+arr.forEach((n)=> {
+  while(n) {
+   	total = total + n%10;
+    n = Math.floor(n/10);
+    console.log(n)
+  }
+});
+console.log(total)
 
 //sjshin
