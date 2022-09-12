@@ -18,6 +18,25 @@ const items = "9 5 1 2 6 7".split(' ').map((n) => {
 });
 
 console.log(bubble(items));
-//Omuing
+//Omuing => 아 어렵다ㅏㅏㅏㅏ
+function bubble(arr) {
+  let result = arr.slice(); 
 
+  for (let i = 0; i < result.length - 1; i++) {
+    for (let j = 0; j < result.length - i - 1; j++) {
+      if (result[j] > result[j + 1]) {
+        let value = result[j];
+        result[j] = result[j + 1];
+        result[j + 1] = value;
+      }
+    }
+  }
+  return result;
+}
+
+const items = "5 3 2 6 7 9".split(' ').map((n) => {
+  return parseInt(n, 10);
+});
+
+console.log(bubble(items));
 //sjshin
