@@ -17,3 +17,9 @@ console.log(valueFirst, valueSecond)
 
 
 // 🌸 sePark 🌸
+function devide(a, b) {
+  let quotient = a / b;
+  let remainder = a % b;
+  console.log(quotient, remainder)
+}
+devide(10 , 2)
