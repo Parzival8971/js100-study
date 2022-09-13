@@ -17,7 +17,12 @@ console.log(result);
 var result = year.concat('/', month, '/', day, ' ', hour, ':', minute, ':', second);
 // 허허... 그냥 이렇게 때려버린다구? 쉽고 아주 좋아!! 캬컄
 
-//sjshin
+//sjshin_ver1
+var result = year+"/"+month+"/"+day+" "+hour+":"+minute+":"+second   //'2019/04/26 11:34:27'
+
+//sjshin_ver2
+var result = year.concat("/",month,"/",day," ",hour,':',minute,":",second)   //'2019/04/26 11:34:27'
+//배열에서 concat : 기존 배열에 추가할 요소(맨뒤에 합쳐짐)를 넣어 새로운 배열을 반환하는 메소드
 
 
 //🌸 sePark 🌸
