@@ -14,3 +14,12 @@ let valueSecond = parseInt(nums[0],10)%parseInt(nums[1],10)
 console.log(valueFirst, valueSecond)
 
 //sjshin
+
+
+// 🌸 sePark 🌸
+function devide(a, b) {
+  let quotient = a / b;
+  let remainder = a % b;
+  console.log(quotient, remainder)
+}
+devide(10 , 2) 

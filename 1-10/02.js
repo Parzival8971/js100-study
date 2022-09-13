@@ -11,3 +11,7 @@ console.log(arr);
 // sjshin_ver1
 const arr2 = arr.splice(2, 0, 10000);
 console.log(arr);
+
+//🌸 sePark 🌸
+arr.splice(2, 0, 10000);
+console.log(arr)

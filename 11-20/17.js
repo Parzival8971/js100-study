@@ -21,3 +21,16 @@ if (height >= 150){
   console.log("NO");
 }
 //sjshin
+
+
+//🌸 sePark 🌸
+// function limitHeight(height) {
+//   if(height >= 150){
+//     console.log('YES')
+//   }else {
+//     console.log('NO')
+//   }
+// }
+
+// limitHeight(150) =>'YES'
+// limitHeight(130) =>'NO'

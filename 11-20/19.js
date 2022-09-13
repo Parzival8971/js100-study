@@ -16,3 +16,14 @@ function free(a,b) {
 free(2, 6)
 
 //sjshin
+
+
+//🌸 sePark 🌸
+// function multiple(a, b) {
+//   let num = 1
+//   for(let i = 0; i < b; i++){
+//     num *= a
+//   }
+//   console.log(num)
+// }
+// multiple(2, 6) =>64

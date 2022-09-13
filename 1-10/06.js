@@ -13,3 +13,7 @@
 //sjshin  : 2번
 // NaN, "", 0, undefined
 // 1 은 number
+
+//🌸 sePark 🌸
+// 2번 number
+// 나머지 false

@@ -18,3 +18,7 @@ console.log(d[example]); // 왼쪽 처럼 접근불가능 ''로 감싸줘야함.
 //sjshin
 console.log(d['weight']); //84 각괄호접근자! ''따옴표 생략하면 안됩니다.
 console.log(d.weight); //84 접접근자 ''따옴표 생략
+
+
+//🌸 sePark 🌸
+//weight는 84가 나온다! 마지막에 할당해분 값!
