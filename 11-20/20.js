@@ -22,4 +22,4 @@ function devide(a, b) {
   let remainder = a % b;
   console.log(quotient, remainder)
 }
-devide(10 , 2)
+devide(10 , 2) cc
