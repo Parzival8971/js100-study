@@ -14,3 +14,6 @@ let setValue = new Set(lists)
 console.log(setValue)
 
 //sjshin
+
+// 🌸 sePark 🌸
+// 3, 5

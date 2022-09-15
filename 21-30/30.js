@@ -16,3 +16,10 @@ const keywords = "애플";
 console.log(words.indexOf(keywords))
 
 //sjshin
+
+// 🌸 sePark 🌸
+function find(words, keywords) {
+  return words.indexOf(keywords)
+}
+
+find("파인애플은 정말 맛있습니다.", "애플")

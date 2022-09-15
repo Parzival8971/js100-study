@@ -23,3 +23,11 @@ for(let i=0; i<words.length-1; i++ ) {
   console.log(words[i], words[i+1]);
 }
 //sjshin
+
+// 🌸 sePark 🌸
+function twoGram(word) {
+for(let i = 0; i < word.length-1; i++){
+  console.log(word[i], word[i+1])
+}
+}
+twoGram(Javascript)
