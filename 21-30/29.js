@@ -11,3 +11,14 @@ if(words === words.toUpperCase()) {
   console.log("소문자");
 }
 //sjshin
+
+// 🌸 sePark 🌸
+function upper(letter) {
+  if(letter === letter.toUpperCase()){
+    console.log("YES")
+  }else {
+    console.log(("NO"))
+  }
+}
+
+upper('c')

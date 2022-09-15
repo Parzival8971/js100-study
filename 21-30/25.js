@@ -15,3 +15,9 @@ const circleWidth = (n) => {
 }
 console.log(circleWidth(5))
 //sjshin
+
+// 🌸 sePark 🌸
+function widthCircle(halfWidth) {
+  return halfWidth*halfWidth*3.14
+}
+console.log(widthCircle(3))

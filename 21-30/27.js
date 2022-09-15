@@ -15,3 +15,16 @@ console.log(obj)
 // Obj.babys = '90' 처럼 생각하면 됨 
 
 //sjshin
+
+
+// 🌸 sePark 🌸
+function returnObject (a,b) {
+	let splitA = a.split(' ');
+	let splitB = b.split(' ');
+  let object = {};
+  for (let i=0; i<splitA.length; i++) {
+    object[splitA[i]] = splitB[i]
+  }
+	return object
+}
+returnObject('Yujin Hyewon','70 100')

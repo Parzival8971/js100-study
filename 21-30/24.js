@@ -14,3 +14,10 @@ console.log(testName.toUpperCase())
 console.log(testName.toLowerCase())
 
 //sjshin
+
+// 🌸 sePark 🌸
+function upperCase(name) {
+  console.log(name.toUpperCase())
+}
+
+upperCase("marry")
