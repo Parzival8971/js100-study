@@ -1,6 +1,7 @@
 // Q 배열에서 400, 500를 삭제하는 code를 입력하라
 const nums = [100, 200, 300, 400, 500];
 
+// Answer
 // 🙈 Oum 1 - 2회독 중
 const newArray = nums.slice(0, 3); // 기존배열은 보존, 새로운 배열을 반환함, 인덱스가 0부터 3까지 복사(3은 제외)
 console.log(nums.splice(0, 3)); // 기존 배열을 변형시킴

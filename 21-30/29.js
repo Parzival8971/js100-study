@@ -4,6 +4,7 @@
 // 알파벳 하나만을 입력하고 그 알파벳이 대문자이면 YES를 아니면 NO를 출력하는 프로그램을 만들어 주세요.
 
 // Answer
+//// 🙈 Oum 1 - 2회독 중
 const words = "b";
 if(words === words.toUpperCase()) {
 	console.log("대문자");

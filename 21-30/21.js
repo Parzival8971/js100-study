@@ -8,9 +8,9 @@
 // 5)  var x = new Set();
 
 // Answer
-//Omuing 5번
+//// 🙈 Oum 1 - 2회독 중
 const lists = [1,2,3,4,5,5,5,6]
-let setValue = new Set(lists)
+let setValue = new Set(lists) // set? 중복되지 않는 데이터를 저장하는 데이터 구조
 console.log(setValue)
 
 //sjshin
