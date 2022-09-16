@@ -7,7 +7,7 @@ console.log(typeof arr);
 // 4)  object
 
 // Answer
-//Omuing_ver1
+// 🙈 Oum 1 - 2회독 중
 // undefined, string, number 는 모두 기본 자료형(primitive type) 입니다.
 
 // sjshin_ver1

@@ -5,7 +5,7 @@
 // 4)  입력 : a = [1, 2, 3],   출력 : object
 
 // Answer
-//Omuing_ver1
+// 🙈 Oum 1 - 2회독 중
 // 2번 number
 
 // sjshin_ver1

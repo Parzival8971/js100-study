@@ -7,7 +7,7 @@
 // 5)  undefined
 
 // Answer
-//Omuing_ver1
+// 🙈 Oum 1 - 2회독 중
 // 2번 정수 true
 
 //sjshin  : 2번

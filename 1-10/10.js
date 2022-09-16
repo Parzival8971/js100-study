@@ -11,7 +11,7 @@
 *********
 
 // Answer
-//Omuing_ver1 => 제일 약한 for문 여기는 평생 복습.......
+// 🙈 Oum 1 - 2회독 중
 const stack = 5;
 
 for(let i=1; i <= stack; i++) {
@@ -23,6 +23,18 @@ for(let i=1; i <= stack; i++) {
     namus = namus + '*';
   }
   console.log(namus)
+}
+// 🙈 Oum 2 - 2회독 중
+const text = 5;
+for(let i=0; i<text; i++) {
+  let ts = '';
+  for(let k=0; k<text-i-1; k++) {
+    ts += ' '
+  }
+  for(let j=0; j<=i*2; j++){
+    ts += '*'
+  }
+  console.log(ts)
 }
 
 //sjshin
