@@ -4,11 +4,11 @@
 입력
 5
 출력
-    *
-   ***
-  *****
- *******
-*********
+    *       //1
+   ***      //3
+  *****     //5
+ *******    //7
+*********   //9
 
 // Answer
 //Omuing_ver1 => 제일 약한 for문 여기는 평생 복습.......
@@ -26,3 +26,8 @@ for(let i=1; i <= stack; i++) {
 }
 
 //sjshin
+const xmastree = 5;
+
+for (i=1, i <= xmastree, i++) {
+  console.log(xmastree);
+}
