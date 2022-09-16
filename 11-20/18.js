@@ -3,14 +3,14 @@
 // 단, 소숫점 자리는 모두 버립니다.
 
 // Answer
-//Omuing 0
+//// 🙈 Oum 1 - 2회독 중
 const scores = ["70", "82", "95"]
 let sum = 0;
 for(let i=0; i<scores.length; i++) {
   sum = sum + parseInt(scores[i], 10);
 }
 console.log(Math.floor(sum/scores.length));
-//Omuinge 답안
+//// 🙈 Oum 2 정답 답안
 const scores = prompt().split(' ')
 console.log(scores)
 let sum = 0;
@@ -20,9 +20,6 @@ for(let i=0; i<scores.length; i++) {
 console.log(Math.floor(sum/scores.length));
 
 //sjshin
-
-
-
 
 //🌸 sePark 🌸
 // function average(sub1, sub2, sub3) {

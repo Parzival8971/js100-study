@@ -7,12 +7,11 @@
 // 출력 : 안녕하세요. 저는 김다정입니다
 
 // Answer
-//Omuing
+// 🙈 Oum 1 - 2회독 중
 const nickname = "신형만"
 console.log(`안녕.나는 대출 320개월 남은 짱구 아빠 ${nickname}이야`)
 
 //sjshin
-
 
 //🌸 sePark 🌸
 // function introduce(name) {

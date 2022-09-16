@@ -9,15 +9,13 @@
 출력 : 수성
 
 // Answer
-//Omuing => 스스로 다르게 생각해서 풀었다 뿌듯...캬
+// 🙈 Oum 1 - 2회독 중
 const guardians = ['수성', '금성', '지구', '화성', '목성', '토성', '천왕성', '해왕성']
 let number = [];
 let numbers = number.push(3)
 console.log(guardians[number-1])
 
 //sjshin
-
-
 
 //🌸 sePark 🌸
 //풀이 1
@@ -30,7 +28,7 @@ console.log(guardians[number-1])
 //풀이 2
 // let planet = [
 //   "수성", "금성", "지구", "화성", "목성", "토성", "천왕성", "해왕성"]
-   
+
 //   function choosePlanet (i) {
 //     console.log(planet[i - 1])
 //   }
