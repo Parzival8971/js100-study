@@ -5,8 +5,12 @@
 // 4)  입력 : a = [1, 2, 3],   출력 : object
 
 // Answer
-//Omuing_ver1
+// 🙈 Oum 1 - 2회독 중
+// 2번 number
 
 // sjshin_ver1
 // 2)  입력 : a = 2.22,   출력 : boolean
 // a = true or a = false
+
+//🌸 sePark 🌸
+// 2번 출력: number

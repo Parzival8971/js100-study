@@ -7,9 +7,13 @@
 // 5)  undefined
 
 // Answer
-//Omuing_ver1
+// 🙈 Oum 1 - 2회독 중
 // 2번 정수 true
 
 //sjshin  : 2번
 // NaN, "", 0, undefined
 // 1 은 number
+
+//🌸 sePark 🌸
+// 2번 number
+// 나머지 false
