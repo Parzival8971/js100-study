@@ -11,7 +11,7 @@
 // (13월 26일이나 2월 45일 같은 날짜는 주어지지 않습니다.)
 
 // Answer
-//Omuing 
+// 🙈 Oum 1 회독중
 const day = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
 const month = "5";
 const date = "5";
