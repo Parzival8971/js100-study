@@ -21,3 +21,8 @@ console.log(total);
 //   s += i
 // }
 // console.log(s);
+
+//kh
+for (i = 1; i <= 100; i++) {
+  s += i;
+}

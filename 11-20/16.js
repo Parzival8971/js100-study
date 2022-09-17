@@ -1,14 +1,14 @@
 // Q 문장이 입력되면 거꾸로 출력하는 프로그램을 만들어 봅시다.
-입출력
+입출력;
 
-입력 : 거꾸로
-출력 : 로꾸거
+입력: 거꾸로;
+출력: 로꾸거;
 
 // Answer
 //// 🙈 Oum 1 - 2회독 중
-const reverse = "개발자까지3개월"
-const reverseSort = reverse.split('').reverse().join('')
-console.log(reverseSort)
+const reverse = "개발자까지3개월";
+const reverseSort = reverse.split("").reverse().join("");
+console.log(reverseSort);
 
 //sjshin
 
@@ -20,12 +20,17 @@ console.log(reverseSort)
 //     arr.push(word.slice(j-1, j));
 //   }
 //   console.log(arr.join(''))
-// } 
+// }
 // reverseWord("거꾸로")
 
-//풀이 2 
+//풀이 2
 //성훈님 풀이 참고, split은 값을 배열로 반환한다!
-// function reverseWord(word) { 
+// function reverseWord(word) {
 //   console.log(word.split('').reverse().join(''))
-// } 
+// }
 // reverseWord("거꾸로")
+
+//kh
+// const sentence = prompt("문장을 입력하세요.");
+// const reverse = sentence.split("").reverse().join("");
+// console.log(reverse);

@@ -16,3 +16,7 @@ console.log(arr);
 //🌸 sePark 🌸
 arr.splice(2, 0, 10000);
 console.log(arr);
+
+//kh
+arr.splice(2, 0, 10000);
+console.log(arr);
