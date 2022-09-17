@@ -9,11 +9,14 @@
 
 // Answer
 //Omuing 5번
-const lists = [1,2,3,4,5,5,5,6]
-let setValue = new Set(lists)
-console.log(setValue)
+const lists = [1, 2, 3, 4, 5, 5, 5, 6];
+let setValue = new Set(lists);
+console.log(setValue);
 
 //sjshin
 
 // 🌸 sePark 🌸
+// 3, 5
+
+//kh
 // 3, 5

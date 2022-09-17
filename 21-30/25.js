@@ -6,18 +6,23 @@
 // Answer
 //Omuing 0
 function circleWidth(n) {
-  return n*n*3.14;
+  return n * n * 3.14;
 }
-console.log(circleWidth(5))
+console.log(circleWidth(5));
 //Omuing 1
 const circleWidth = (n) => {
-  return n*n*3.14;
-}
-console.log(circleWidth(5))
+  return n * n * 3.14;
+};
+console.log(circleWidth(5));
 //sjshin
 
 // 🌸 sePark 🌸
 function widthCircle(halfWidth) {
-  return halfWidth*halfWidth*3.14
+  return halfWidth * halfWidth * 3.14;
 }
-console.log(widthCircle(3))
+console.log(widthCircle(3));
+
+//kh
+function getCircleWidth(n) {
+  return n * n * 3.14;
+}

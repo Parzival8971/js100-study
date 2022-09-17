@@ -4,7 +4,7 @@ const nums = [100, 200, 300, 400, 500];
 // Answer 0
 const newArray = nums.slice(0, 3);
 console.log(newArray);
-console.log('구분선');
+console.log("구분선");
 
 // Answer 1
 nums.pop();
@@ -28,4 +28,8 @@ console.log(nums); //[ 400, 500 ]
 
 //🌸 sePark 🌸
 console.log(nums.slice(0, 3)); //원본 배열에 영향을 주지 않는다
-console.log(nums.splice(0, 3));// 원본 대열의 값도 변하고, splice한 값도 변수에 지정하여 반환 받을 수 있다
+console.log(nums.splice(0, 3)); // 원본 대열의 값도 변하고, splice한 값도 변수에 지정하여 반환 받을 수 있다
+
+//kh
+nums.splice(3, 5);
+console.log(nums);
