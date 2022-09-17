@@ -37,7 +37,7 @@ const array = [1,3,5,4,8,6,7,2]
 console.log(mergeSort(array));
 
 // Answer
-//// 🙈 Oum => 1회독 이해못함;;;
+//// 🙈 Oum 1회독 => 풀려면 재귀함수에 대해 알아야함. 아직 못품
 function mergeSort(arr){
   if (arr.length <= 1){
     return arr;
