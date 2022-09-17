@@ -6,7 +6,7 @@
 // 출력 : 2 4 6 8 10 12 14 16 18
 
 // Answer
-//Omuing 
+//// 🙈 Oum 1 회독중
 const num = 2;
 let result = "";
 for(let i=0; i<9; i++) {

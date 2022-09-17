@@ -8,7 +8,7 @@
 // 출력 : 8 7 6 4 2
 
 // Answer
-//Omuing => 조금 어려움 메모
+//// 🙈 Oum 1 회독중 어려움 메모
 const nums = "1 2 3 4 5"
 const array = nums.split(" ").reverse()
 console.log(array)

@@ -18,7 +18,7 @@
 // 2
 
 // Answer
-//Omuing => 이 문제도 조금 이해하기 어려웠다. 다시보자
+//// 🙈 Oum 1 회독중 어려움
 const weightLimit = "300";
 const memberCount = "5";
 let count = 0;

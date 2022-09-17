@@ -18,6 +18,7 @@ function quickSort(arr){
 }
 const array = prompt('배열을 입력하세요').split(' ').map(n => parseInt(n, 10));
 console.log(quickSort(array));
+
 // Answer
 //// 🙈 Oum 1회독
 

@@ -13,7 +13,7 @@
 // 출력 : hello my name is hyewon
 
 // Answer
-//Omuing => 이 문제 좀 재미있다. 바꿀 수 있구나.
+//// 🙈 Oum 1 회독중
 const word ="hqllo my namq is hyqwon";
 console.log(word.split("q").join("e"))
 

@@ -5,7 +5,8 @@
 // 입력 : AAABBBcccddd
 // 출력 : aaabbbCCCDDD// Answer
 
-//Omuing
+// Answer
+// 🙈 Oum 1 회독중
 const string = "AAABBBcccddd";
 let arrs = [];
 for(let i=0; i<string.length; i++) {

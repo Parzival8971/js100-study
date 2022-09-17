@@ -18,6 +18,8 @@ const items = "9 5 1 2 6 7".split(' ').map((n) => {
 });
 
 console.log(bubble(items));
+
+// Answer
 //Omuing => 아 어렵다ㅏㅏㅏㅏ
 function bubble(arr) {
   let result = arr.slice(); 
