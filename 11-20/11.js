@@ -23,3 +23,9 @@ console.log(total);
 //   s += i
 // }
 // console.log(s);
+
+//YS.kim
+for (let i = 1; i <= 100; i++) {
+  s += i;
+}
+console.log(s);

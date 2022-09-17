@@ -3,20 +3,19 @@
 
 // Answer
 //Omuing 0
-const num = ["2", "6"]
-console.log(Math.pow(parseInt(num[0],10),parseInt(num[1],10)))
+const num = ["2", "6"];
+console.log(Math.pow(parseInt(num[0], 10), parseInt(num[1], 10)));
 //Omuing 1
-function free(a,b) {
+function free(a, b) {
   let result = 1;
-  for(let i=0; i<b; i++) {
-    result = result * a
+  for (let i = 0; i < b; i++) {
+    result = result * a;
   }
-  console.log(result)
+  console.log(result);
 }
-free(2, 6)
+free(2, 6);
 
 //sjshin
-
 
 //🌸 sePark 🌸
 // function multiple(a, b) {
@@ -27,3 +26,14 @@ free(2, 6)
 //   console.log(num)
 // }
 // multiple(2, 6) =>64
+
+// YS.kim
+// const jegob = (a, b) => {
+//   let result = 1;
+//   for (let i = 0; i < b; i++) {
+//     result *= a;
+//   }
+//   console.log(result);
+// };
+
+// jegob(2, 10);

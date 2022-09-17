@@ -55,3 +55,18 @@ for(let i=0; i<text; i++) {
 //    console.log(empty + star)
 // }
 
+// YS.kim
+const starMake = (num) =>{
+  for(let i =0; i<num; i++){
+    let star = '';
+  for(let k=0; k<num-i-1; k++) {
+    star += ' '
+  }
+     for(let j=0; j<=i*2; j++){
+    star += '*'
+  }
+      console.log(star);
+    }
+}
+
+starMake(5)
