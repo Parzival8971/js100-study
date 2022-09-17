@@ -4,9 +4,9 @@
 //키가 150이 넘으면 YES를 틀리면 NO를 출력하는 프로그램을 작성하세요.
 
 // Answer
-//Omuing 0
+//// 🙈 Oum 1 - 2회독 중
 const heightUp = [170, 179, 180, 185];
-for (let i = 1; i <= heightUp.length; i++) {
+for (let i = 0; i < heightUp.length; i++) {
   if (heightUp[i] >= 180) {
     console.log(i, "번째", "180이 넘으시네요!");
   } else {

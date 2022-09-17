@@ -12,12 +12,12 @@
 출력: 2;
 
 // Answer
-//Omuing => 4자리에 숫자 바꿔서 넣으면 됨
-let number = [1, 2, 3, 4, 5, 6, 7, 8];
-if (number[4 - 1] % 3 === 0) {
-  console.log("짝수");
+// 🙈 Oum 1 - 2회독 중
+const n = prompt();
+if (n % 3 === 0 && n != 0) {
+  console.log("짝");
 } else {
-  console.log("홀수");
+  console.log(n);
 }
 
 //sjshin

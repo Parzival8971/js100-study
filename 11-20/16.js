@@ -5,7 +5,7 @@
 출력: 로꾸거;
 
 // Answer
-//Omuing
+//// 🙈 Oum 1 - 2회독 중
 const reverse = "개발자까지3개월";
 const reverseSort = reverse.split("").reverse().join("");
 console.log(reverseSort);

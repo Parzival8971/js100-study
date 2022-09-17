@@ -9,6 +9,7 @@
 출력: MARY;
 
 // Answer
+// 🙈 Oum 1 - 2회독 중
 const testName = "Front-end";
 console.log(testName.toUpperCase());
 console.log(testName.toLowerCase());

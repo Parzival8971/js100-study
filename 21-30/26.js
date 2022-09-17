@@ -3,7 +3,7 @@
 // 행성의 한글 이름을 입력하면 영어 이름을 반환하는 프로그램을 만들어 주세요.
 
 // Answer
-//Omuing
+//// 🙈 Oum 1 - 2회독 중
 const planetsFirst = {
   수성: "Mercury",
   금성: "Venus",

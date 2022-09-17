@@ -6,7 +6,7 @@
 // 출력 : 5 0
 
 // Answer
-//Omuing
+//// 🙈 Oum 1 - 2회독 중
 const nums = ["7", "2"];
 let valueFirst = Math.floor(parseInt(nums[0], 10) / parseInt(nums[1], 10));
 console.log(valueFirst);

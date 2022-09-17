@@ -1,11 +1,12 @@
 // Q 1부터 100까지 모두 더하는 Code를 <pass> 부분에 완성하세요. for를 사용해야 합니다.
 let s = 0;
+output = 5050;
 
 //pass
 console.log(s);
 
 // Answer
-//Omuing_ver1 => for문에 익숙해지자!!
+// 🙈 Oum 1 - 2회독 중
 let total = 0;
 for (let i = 1; i <= 100; i++) {
   total = total + i;

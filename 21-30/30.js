@@ -11,6 +11,7 @@
 // 4
 
 // Answer
+//// 🙈 Oum 1 - 2회독 중
 const words = "파인애플은 정말 맛있습니다.";
 const keywords = "애플";
 console.log(words.indexOf(keywords));

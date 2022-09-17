@@ -4,7 +4,8 @@
 // 두 개를 합쳐 학생의 이름이 key이고 value가 수학 점수인 객체를 출력해주세요.
 
 // Answer
-//Omuing => 조금 어려운 부분이지만 이해완료! 객체구문
+//// 🙈 Oum 1 - 2회독 중
+// split() 배열을 만들어 반환한다. '' 을 넣으 ,으로 구분 짓는다.
 const keys = ["babys", "johns"];
 const values = ["90", "10"];
 let obj = {};

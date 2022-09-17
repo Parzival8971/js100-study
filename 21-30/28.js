@@ -17,7 +17,7 @@
 // 입력으로 문자열이 주어지면 2-gram으로 출력하는 프로그램을 작성해 주세요.
 
 // Answer
-//Omuing
+//// 🙈 Oum 1 - 2회독 중
 const words = "안녕하세용";
 for (let i = 0; i < words.length - 1; i++) {
   console.log(words[i], words[i + 1]);
