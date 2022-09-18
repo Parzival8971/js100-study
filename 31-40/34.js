@@ -10,8 +10,8 @@
 // 입력 : 155 156 165 166 169 176
 // 출력 : YES
 
-// Answer 
-//Omuing
+// Answer
+//// 🙈 Oum 1 회독중
 const unsorted = "176 156 155 165 166 169 95"
 let sorted = "";
 sorted = (unsorted.split(" ").sort((a,b)=>{
