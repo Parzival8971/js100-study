@@ -31,3 +31,8 @@ console.log(as(10));
 console.log(bs(10));
 console.log(cs(10));
 //sjshin
+
+
+
+// 🌸 sePark 🌸
+//콜백은 일단 패스

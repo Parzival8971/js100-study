@@ -29,3 +29,32 @@ console.log(top3);
 console.log(count - 1);
 
 //sjshin
+
+// 🌸 sePark 🌸
+
+// function findTop(scores) {
+//   let arrScores = scores.split(' ');
+//   let result = {};
+ 
+//   arrScores.forEach(score => {
+//     result[score] = (result[score] || 0)+1         
+//   })
+
+// let keys = Object.keys(result)
+
+// keys.sort((a,b) =>{
+//   return b - a
+// })
+
+//   let topKeys = keys.slice(0 , 3)
+//   let sumKeys = 0
+
+//   for(let i = 0; i <topKeys.length; i++){
+//     sumKeys +=   Number(result[topKeys[i]])
+//   }
+
+//   return sumKeys
+ 
+// }
+ 
+//  findTop("97 86 75 66 55 97 85 97 97 95")
