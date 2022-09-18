@@ -14,3 +14,15 @@ for(let i=0; i<9; i++) {
 }
 console.log(result)
 //sjshin
+
+// 🌸 sePark 🌸
+function toTimesTable(a) {
+  let result = "";
+	for(let i = 1; i < 10; i++){
+		result += a * i + " "
+	}
+  result = result.slice(0, -1)
+	return result
+}
+
+console.log(toTimesTable(2))

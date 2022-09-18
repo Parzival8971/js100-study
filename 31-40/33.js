@@ -18,3 +18,17 @@ for(let i =0; i< array.length; i++) {
 }
 console.log(reverseValue)
 //sjshin
+
+
+// 🌸 sePark 🌸
+function reversNumbers(numbers) {
+  let numsArray = numbers.split(' ');
+  let result = '';
+  for(let i = numsArray.length-1 ; i >= 0; i--){
+    result += numsArray[i] + " "
+  }
+  result = result.slice(0, -1)
+  console.log(result)
+}
+
+reversNumbers('1 2 3 4 5')

@@ -13,3 +13,10 @@ const words = "안녕하세요. 저는코딩대학교 코딩학전공 혜림입�
 console.log(words.split(" ").length)
 
 //sjshin
+
+// 🌸 sePark 🌸
+function countWords(words) {
+  return words.split(" ").length
+}
+
+console.log(countWords("안녕하세요. 저는코딩대학교 코딩학전공 혜림입니다."))

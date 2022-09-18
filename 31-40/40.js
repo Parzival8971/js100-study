@@ -32,3 +32,20 @@ for (let i=0; i < memberCount; i++) {
 }
 console.log(count)
 //sjshin
+
+// 🌸 sePark 🌸
+// function limitWeight(info) {
+//   let arrInfo = info.split(" ");
+//   let sum = 0
+//   let a = [];
+  
+//   for(let i = 2; i < arrInfo.length-2; i++){
+//     if (arrInfo[0] > sum + Number(arrInfo[i])){
+//      sum += Number(arrInfo[i])
+//       a ++
+//     }
+//   }
+//  return a
+// }
+
+// console.log(limitWeight("50 5 20 20 20 20 20"))
