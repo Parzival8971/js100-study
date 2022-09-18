@@ -21,3 +21,5 @@ console.log(typeof arr);
 
 // YS.kim
 // 4번 object
+//kh
+// 4. object

@@ -4,6 +4,7 @@
 
 // Answer
 //Omuing 0
+//// 🙈 Oum 1 - 2회독 중
 const scores = ["70", "82", "95"];
 let sum = 0;
 for (let i = 0; i < scores.length; i++) {
@@ -11,6 +12,7 @@ for (let i = 0; i < scores.length; i++) {
 }
 console.log(Math.floor(sum / scores.length));
 //Omuinge 답안
+//// 🙈 Oum 2 정답 답안
 const scores = prompt().split(" ");
 console.log(scores);
 let sum = 0;
@@ -36,3 +38,10 @@ console.log(Math.floor(sum / scores.length));
 // };
 
 // average(20, 30, 40);
+//kh
+// const scores = prompt("세 과목의 점수를 입력하세요.").split(" ");
+// let sum = 0;
+// for (i = 0; i < 3; i++) {
+//   sum += parseInt(scores[i]);
+// }
+// console.log(Math.floor(sum / 3));

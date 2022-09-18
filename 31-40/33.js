@@ -8,7 +8,7 @@
 // 출력 : 8 7 6 4 2
 
 // Answer
-//Omuing => 조금 어려움 메모
+//// 🙈 Oum 1 회독중 어려움 메모
 const nums = "1 2 3 4 5"
 const array = nums.split(" ").reverse()
 console.log(array)
@@ -18,3 +18,17 @@ for(let i =0; i< array.length; i++) {
 }
 console.log(reverseValue)
 //sjshin
+
+
+// 🌸 sePark 🌸
+function reversNumbers(numbers) {
+  let numsArray = numbers.split(' ');
+  let result = '';
+  for(let i = numsArray.length-1 ; i >= 0; i--){
+    result += numsArray[i] + " "
+  }
+  result = result.slice(0, -1)
+  console.log(result)
+}
+
+reversNumbers('1 2 3 4 5')

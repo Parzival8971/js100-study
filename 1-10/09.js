@@ -53,3 +53,7 @@ console.log(result);
 
 // YS.kim
 var result = year.concat(`/${month}/${day}/ ${hour}:${minute}:${second}`);
+console.log(result)
+
+//kh
+const result = year.concat('/', month, '/', day, ' ', hour, ':', minute, ':', second);

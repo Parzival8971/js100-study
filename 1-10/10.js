@@ -70,3 +70,19 @@ const starMake = (num) =>{
 }
 
 starMake(5)
+//kh
+// const n = prompt('숫자를 입력하세요.');
+// let tree = '';
+// for(i = 1; i <= n; i ++) {
+//   const empty = n-i;
+//   const star = (i*2)-1;
+  
+//   for(j = 1; j <= empty; j++) {
+//     tree += ' '; 
+//   }
+//   for(k = 1; k <= star; k++) {
+//     tree += '*';
+//   }
+//   tree += '\n';
+// }
+// console.log(tree);

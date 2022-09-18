@@ -17,3 +17,5 @@
 
 // YS.kim
 // 2번 출력 : number 자바스크립트에는 float같이 실수를 나타내는 타입이 없기 때문에 number형으로 지정
+//kh
+// 2. 출력 : number

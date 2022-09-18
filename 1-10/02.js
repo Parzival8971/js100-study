@@ -4,6 +4,7 @@ const arr = [200, 100, 300];
 // 출력값
 [200, 100, 10000, 300];
 
+// Answer
 // 🙈 Oum 1 - 2회독 중
 arr.splice(2, 0, 10000); // 2번째 인덱스에, 0 삭제하지 않고, 10000을 추가한다
 console.log(arr);
@@ -20,3 +21,6 @@ console.log(arr);
 const method1 = () => {
   arr.splice(2, 0, 10000);
 };
+//kh
+arr.splice(2, 0, 10000);
+console.log(arr);

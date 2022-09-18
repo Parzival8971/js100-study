@@ -11,7 +11,7 @@
 
 
 // Answer
-//Omuing_ver1 => 클래식함수..... 전혀 모르겠으므로 공부필요! 풀지못함 체크
+// 🙈 Oum 1 - 2회독 중 / 클래식 함수 모르겠다	
 const Wizard = class Wizard {
 	constructor (health, mana, armor){
 			this.health = health;
@@ -48,3 +48,14 @@ const Wizard = class Wizard {
 const x = new Wizard(545, 210, 10);
 console.log(x.health, x.mana, x.armor);
 x.attack();
+//kh
+// const Wizard = class Wizard {
+// 	constructor(health, mana, armor) {
+// 		this.health = health;
+// 		this.mana = mana;
+// 		this.armor = armor;
+// 	}
+// 	attack() {
+// 		console.log('파이어볼');
+// 	}
+// }

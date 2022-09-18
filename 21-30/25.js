@@ -4,20 +4,25 @@
 // 입력으로 반지름의 길이 정수 n이 주어지면 원의 넓이를 반환하는 함수를 만들어 주세요.
 
 // Answer
-//Omuing 0
+// 🙈 Oum 1 - 2회독 중
 function circleWidth(n) {
-  return n*n*3.14;
+  return n * n * 3.14;
 }
-console.log(circleWidth(5))
-//Omuing 1
+console.log(circleWidth(5));
+// 🙈 Oum 1 - 2회독 중
 const circleWidth = (n) => {
-  return n*n*3.14;
-}
-console.log(circleWidth(5))
+  return n * n * 3.14;
+};
+console.log(circleWidth(5));
 //sjshin
 
 // 🌸 sePark 🌸
 function widthCircle(halfWidth) {
-  return halfWidth*halfWidth*3.14
+  return halfWidth * halfWidth * 3.14;
 }
-console.log(widthCircle(3))
+console.log(widthCircle(3));
+
+//kh
+function getCircleWidth(n) {
+  return n * n * 3.14;
+}

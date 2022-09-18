@@ -8,8 +8,15 @@
 // 출력 : 5
 
 // Answer
-//Omuing 
+//// 🙈 Oum 1 회독중
 const words = "안녕하세요. 저는코딩대학교 코딩학전공 혜림입니다."
 console.log(words.split(" ").length)
 
 //sjshin
+
+// 🌸 sePark 🌸
+function countWords(words) {
+  return words.split(" ").length
+}
+
+console.log(countWords("안녕하세요. 저는코딩대학교 코딩학전공 혜림입니다."))

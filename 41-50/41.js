@@ -4,7 +4,7 @@
 // (소수 : 1과 자기 자신만으로 나누어떨어지는 1보다 큰 양의 정수)
 
 // Answer
-//Omuing => 이해하기 좀 난해했다.
+// 🙈 Oum 1 회독중 어려움
 const prime = 11;
 function primeFunc(n) {
   for(let i=2; i < n; i++) {

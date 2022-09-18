@@ -5,7 +5,7 @@
 // 각 자리의 숫자를 더하면 21입니다. (1+0+1+1+1+2+1+3+1+4+1+5 = 21)
 
 // Answer
-//Omuing => 저 forEach부분과 while부분 공부 계속해야할듯 이해 좀 안됨
+// 🙈 Oum 1 회독중 헷갈림
 let arr = [];
 let total = 0;
 for(let i=0; i<20; i++) {

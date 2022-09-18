@@ -24,3 +24,5 @@ console.log(d.weight); //84 접접근자 ''따옴표 생략
 
 // YS.kim
 // 84
+//kh
+//84

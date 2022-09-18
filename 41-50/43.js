@@ -5,7 +5,7 @@
 // 사용자에게 숫자를 입력받고 이를 2진수를 바꾸고 그 값을 출력해주세요.
 
 // Answer
-//Omuing => 이해못하고 풀음 다시 봐야함.
+// 🙈 Oum 1 회독중 어려움
 let dec = "32"
 let arrBinary = [];
 while(dec) {

@@ -3,7 +3,7 @@
 // 이를 이용하여 현재 연도(2019)를 출력해보세요.
 
 // Answer
-//Omuing 
+// 🙈 Oum 1 회독중
 const theDate = new Date();
 console.log(Math.floor(theDate.getTime()/(60*60*24*365*1000))+1970);
 //sjshin

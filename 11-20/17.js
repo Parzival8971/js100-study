@@ -7,6 +7,9 @@
 //Omuing 0
 const heightUp = [170, 179, 180, 185];
 for (let i = 1; i <= heightUp.length; i++) {
+//// 🙈 Oum 1 - 2회독 중
+const heightUp = [170, 179, 180, 185];
+for (let i = 0; i < heightUp.length; i++) {
   if (heightUp[i] >= 180) {
     console.log(i, "번째", "180이 넘으시네요!");
   } else {
@@ -42,3 +45,6 @@ if (height >= 150) {
 // };
 
 // restrictKey("150");
+// kh
+// const n = prompt('키를 입력하세요.');
+// console.log(n >= 150 ? 'YES' : 'NO');

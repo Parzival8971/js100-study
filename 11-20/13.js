@@ -20,6 +20,8 @@ const guardians = [
   "천왕성",
   "해왕성",
 ];
+// 🙈 Oum 1 - 2회독 중
+const guardians = ["수성", "금성", "지구", "화성", "목성", "토성", "천왕성", "해왕성"];
 let number = [];
 let numbers = number.push(3);
 console.log(guardians[number - 1]);
@@ -44,6 +46,7 @@ console.log(guardians[number - 1]);
 
 //   choosePlanet(3)
 
+<<<<<<< HEAD
 // YS.kim
 const planetFunction = (index) => {
   const planet = [
@@ -60,3 +63,9 @@ const planetFunction = (index) => {
 };
 
 planetFunction(2);
+=======
+//kh
+// const n = prompt('숫자를 입력하세요.');
+// const planet = ["수성", "금성", "지구", "화성", "목성", "토성", "천왕성", "해왕성"];
+// console.log(planet[n-1]);
+>>>>>>> js/master

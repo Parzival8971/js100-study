@@ -6,7 +6,7 @@
 // 출력 : 2 4 6 8 10 12 14 16 18
 
 // Answer
-//Omuing 
+//// 🙈 Oum 1 회독중
 const num = 2;
 let result = "";
 for(let i=0; i<9; i++) {
@@ -14,3 +14,15 @@ for(let i=0; i<9; i++) {
 }
 console.log(result)
 //sjshin
+
+// 🌸 sePark 🌸
+function toTimesTable(a) {
+  let result = "";
+	for(let i = 1; i < 10; i++){
+		result += a * i + " "
+	}
+  result = result.slice(0, -1)
+	return result
+}
+
+console.log(toTimesTable(2))

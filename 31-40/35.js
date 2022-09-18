@@ -17,7 +17,7 @@ console.log(b(10));
 console.log(c(10));
 
 // Answer
-//Omuing => 콜백에 콜백 조금 난해함
+//// 🙈 Oum 1 회독중 콜백 난해하다
 function one(n){
   function two(x){
     return Math.pow(x, n)
@@ -31,3 +31,8 @@ console.log(as(10));
 console.log(bs(10));
 console.log(cs(10));
 //sjshin
+
+
+
+// 🌸 sePark 🌸
+//콜백은 일단 패스
