@@ -7,6 +7,7 @@
 // 출력 : 안녕하세요. 저는 김다정입니다
 
 // Answer
+//Omuing
 // 🙈 Oum 1 - 2회독 중
 const nickname = "신형만";
 console.log(`안녕.나는 대출 320개월 남은 짱구 아빠 ${nickname}이야`);
@@ -21,6 +22,12 @@ console.log(`안녕.나는 대출 320개월 남은 짱구 아빠 ${nickname}이�
 // introduce('김다정') //'안녕하세요. 저는 김다정입니다.' 출력
 // introduce('박성은')  //'안녕하세요. 저는 박성은입니다.' 출력
 
+// YS.kim
+function helloName(name) {
+  console.log(`안녕하세요. 저는 ${name}입니다.`);
+}
+
+helloName("김다정");
 //kh
 // const name = prompt('이름을 입력하세요.');
 // console.log(`안녕하세요. 저는 ${name}입니다.`);

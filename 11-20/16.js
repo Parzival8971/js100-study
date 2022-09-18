@@ -5,6 +5,7 @@
 출력: 로꾸거;
 
 // Answer
+//Omuing
 //// 🙈 Oum 1 - 2회독 중
 const reverse = "개발자까지3개월";
 const reverseSort = reverse.split("").reverse().join("");
@@ -30,6 +31,22 @@ console.log(reverseSort);
 // }
 // reverseWord("거꾸로")
 
+// YS.kim
+// const method1 = (name) => {
+//   console.log(name.split("").reverse().join(""));
+// };
+
+// method1("거꾸로");
+
+// const method2 = (name) => {
+//   let result = "";
+//   for (let i = name.length; i > 0; i--) {
+//     result += name.slice(i - 1, i);
+//   }
+//   console.log(result);
+// };
+
+// method2("거꾸로");
 //kh
 // const sentence = prompt("문장을 입력하세요.");
 // const reverse = sentence.split("").reverse().join("");

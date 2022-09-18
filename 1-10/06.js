@@ -18,6 +18,8 @@
 // 2번 number
 // 나머지 false
 
+// YS.kim
+// 자바스크립트에서 0은 False 정수는 True로 표현하므로 1은 True이다.
 //kh
 // 2. 1
 // 참고로 빈배열 [] == true

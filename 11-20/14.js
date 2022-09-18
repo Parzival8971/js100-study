@@ -12,6 +12,12 @@
 출력: 2;
 
 // Answer
+//Omuing => 4자리에 숫자 바꿔서 넣으면 됨
+let number = [1, 2, 3, 4, 5, 6, 7, 8];
+if (number[4 - 1] % 3 === 0) {
+  console.log("짝수");
+} else {
+  console.log("홀수");
 // 🙈 Oum 1 - 2회독 중
 const n = prompt();
 if (n % 3 === 0 && n != 0) {
@@ -33,6 +39,17 @@ if (n % 3 === 0 && n != 0) {
 // numberGame(6) //'짝' 출력
 // numbermber(4) // 4 출력
 
+<<<<<<< HEAD
+// YS.kim
+const threeCheck = (num) => {
+  if (num % 3 === 0) console.log("짝");
+  else console.log(num);
+};
+
+threeCheck(3);
+threeCheck(2);
+=======
 //kh
 // const n = prompt('숫자를 입력하세요.');
 // console.log(n%3===0 ? `짝` : `${n}`)
+>>>>>>> js/master

@@ -23,6 +23,12 @@ function devide(a, b) {
 }
 devide(10, 2);
 
+// YS.kim
+// const mokNamuge = (first, second) => {
+//   console.log(first / second + " " + (first % second));
+// };
+
+// mokNamuge(10, 2);
 // kh
 // const n = prompt("두 숫자를 입력하세요.").split(" ");
 // console.log(`${Math.floor(parseInt(n[0]) / parseInt(n[1]))} ${parseInt(n[0]) % parseInt(n[1])}`);

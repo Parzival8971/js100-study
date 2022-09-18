@@ -22,5 +22,7 @@ console.log(d.weight); //84 접접근자 ''따옴표 생략
 //🌸 sePark 🌸
 //weight는 84가 나온다! 마지막에 할당해분 값!
 
+// YS.kim
+// 84
 //kh
 //84
