@@ -1,44 +1,43 @@
 // Q 별 찍기
 // 크리스마스 날, 은비는 친구들과 함께 파티를 하기로 했습니다. 그런데, 크리스마스 트리를 사는 것을 깜빡하고 말았습니다. 온 가게를 돌아다녀 봤지만 크리스마스 트리는 모두 품절이었습니다. 하는 수 없이 은비는 프로그래밍으로 트리를 만들기로 합니다. (??? 세상에;;ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ)
 
-입력
-5
-출력
-    *       //1
-   ***      //3
-  *****     //5
- *******    //7
-*********   //9
+// 입력
+// 5
+// 출력
+//     *       //1
+//    ***      //3
+//   *****     //5
+//  *******    //7
+// *********   //9
 
 // Answer
 // 🙈 Oum 1 - 2회독 중
-const stack = 5;
+// const stack = 5;
 
-for(let i=1; i <= stack; i++) {
-  let namus = '';
-  for(let k=1; k<=stack-i; k++){
-    namus = namus + ' ';
-  }
-  for(let j=1; j<= i*2-1; j++) {
-    namus = namus + '*';
-  }
-  console.log(namus)
-}
+// for(let i=1; i <= stack; i++) {
+//   let namus = '';
+//   for(let k=1; k<=stack-i; k++){
+//     namus = namus + ' ';
+//   }
+//   for(let j=1; j<= i*2-1; j++) {
+//     namus = namus + '*';
+//   }
+//   console.log(namus)
+// }
 // 🙈 Oum 2 - 2회독 중
-const text = 5;
-for(let i=0; i<text; i++) {
-  let ts = '';
-  for(let k=0; k<text-i-1; k++) {
-    ts += ' '
-  }
-  for(let j=0; j<=i*2; j++){
-    ts += '*'
-  }
-  console.log(ts)
-}
+// const text = 5;
+// for(let i=0; i<text; i++) {
+//   let ts = '';
+//   for(let k=0; k<text-i-1; k++) {
+//     ts += ' '
+//   }
+//   for(let j=0; j<=i*2; j++){
+//     ts += '*'
+//   }
+//   console.log(ts)
+// }
 
 //sjshin
-
 
 //🌸 sePark 🌸
 // let tree = 5;
@@ -54,13 +53,3 @@ for(let i=0; i<text; i++) {
 //   }
 //    console.log(empty + star)
 // }
-
-<<<<<<< HEAD
-//sjshin
-const xmastree = 5;
-
-for (i=1, i <= xmastree, i++) {
-  console.log(xmastree);
-}
-=======
->>>>>>> 8b1dae7e880bd0544e859def5496f53df2b85f4b

@@ -7,13 +7,19 @@ console.log(s);
 
 // Answer
 // 🙈 Oum 1 - 2회독 중
-let total = 0;
-for (let i = 1; i <= 100; i++) {
-  total = total + i;
-}
-console.log(total);
+// let total = 0;
+// for (let i = 1; i <= 100; i++) {
+//   total = total + i;
+// }
+// console.log(total);
 
-//sjshin
+//😎 sjshin
+// let sum = 0;
+
+// for(let i=1; i <= 100; i++) {
+//   sum += i;
+// }
+// console.log(sum);  //5050
 
 //🌸 sePark 🌸
 // let s = 0;
