@@ -8,7 +8,7 @@
 // 혜원(이)가 총 4표로 반장이 되었습니다.
 
 // Answer
-//Omuing => 어려움 예습복습 필수 for in, reduce
+//// 🙈 Oum 1 회독중 어려움;;
 const array = ['원범', '원범', '혜원', '혜원', '혜원','혜원', '유진', '유진']
 let result = {};
 let winner = "";
@@ -28,3 +28,20 @@ console.log(winner)
 console.log(`${winner}(이)가 총 ${result[winner]}표로 반장이 되었습니다.`)
 
 //sjshin
+
+// 🌸 sePark 🌸
+//나의 최선..
+// function compare(names) {
+//   let arrNames = names.split(' ')
+//   let result = {};
+//   arrNames.forEach(name => {
+//     result[name] = (result[name] || 0)+1;  
+//   })
+  
+//  let numbers = Object.values(result)
+//  let max = Math.max(...numbers)
+//  let result2 = Object.keys(result).find(key => result[key] === max)
+//   return `${result2}(이)가 총 ${max}표로 반장이 되었습니다.`
+  
+// }
+//  console.log(compare("원범 원범 혜원 혜원 혜원 혜원 유진 유진"))

@@ -11,7 +11,7 @@
 // 출력 : YES
 
 // Answer
-//Omuing
+//// 🙈 Oum 1 회독중
 const unsorted = "176 156 155 165 166 169 95"
 let sorted = "";
 sorted = (unsorted.split(" ").sort((a,b)=>{
@@ -25,3 +25,36 @@ if(unsorted === sorted) {
 }
 
 //sjshin
+
+
+// 🌸 sePark 🌸
+//풀이 1
+// function sortHeight(heights) {
+//   let arrHeights = heights.split(" ")
+//    for(let i = 0; i < arrHeights.length; i++){
+//     let a = Number(arrHeights[0])
+//     if(Number(arrHeights[i]) < Number(arrHeights[i+1])){
+//       a = Number(arrHeights[i+1])
+//     }else {
+//       return "No"
+//      }
+//     return "Yes"
+//   }
+// }
+// console.log(sortHeight("176 156 155 165 166 169"));
+// console.log(sortHeight("155 156 165 166 169 176"));
+
+//풀이2
+// function sortHeight(heights) {
+//   let arrHeights = heights.split(" ");
+//   let right = [...arrHeights].sort((a,b) => {
+//     return a-b
+//   })
+//   if(JSON.stringify(arrHeights) === JSON.stringify(right)){
+//     return "Yes"
+//   }else {
+//     return "No"
+//   }
+// }
+// console.log(sortHeight("176 156 155 165 166 169"));
+// console.log(sortHeight("155 156 165 166 169 176"));

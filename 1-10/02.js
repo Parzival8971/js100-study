@@ -16,3 +16,11 @@ console.log(arr);
 //🌸 sePark 🌸
 arr.splice(2, 0, 10000);
 console.log(arr);
+
+// YS.kim
+const method1 = () => {
+  arr.splice(2, 0, 10000);
+};
+//kh
+arr.splice(2, 0, 10000);
+console.log(arr);

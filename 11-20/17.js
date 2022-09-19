@@ -4,24 +4,26 @@
 //키가 150이 넘으면 YES를 틀리면 NO를 출력하는 프로그램을 작성하세요.
 
 // Answer
+//Omuing 0
+const heightUp = [170, 179, 180, 185];
+for (let i = 1; i <= heightUp.length; i++) {
 //// 🙈 Oum 1 - 2회독 중
-const heightUp = [170, 179, 180, 185]
-for(let i=0; i<heightUp.length; i++) {
-	if(heightUp[i] >= 180) {
-		console.log(i,"번째","180이 넘으시네요!")
+const heightUp = [170, 179, 180, 185];
+for (let i = 0; i < heightUp.length; i++) {
+  if (heightUp[i] >= 180) {
+    console.log(i, "번째", "180이 넘으시네요!");
   } else {
-    console.log(i,"번째","하하 우유좀 마셔야겠는걸?")
+    console.log(i, "번째", "하하 우유좀 마셔야겠는걸?");
   }
 }
 // 일반 답안
 const height = prompt("키를 입력하세요.");
-if (height >= 150){
+if (height >= 150) {
   console.log("YES");
 } else {
   console.log("NO");
 }
 //sjshin
-
 
 //🌸 sePark 🌸
 // function limitHeight(height) {
@@ -34,3 +36,15 @@ if (height >= 150){
 
 // limitHeight(150) =>'YES'
 // limitHeight(130) =>'NO'
+
+// YS.kim
+// const restrictKey = (key) => {
+//   if (key >= 150) console.log("YES");
+//   else if (key < 150) console.log("NO");
+//   else console.log("똑바로 입력해라");
+// };
+
+// restrictKey("150");
+// kh
+// const n = prompt('키를 입력하세요.');
+// console.log(n >= 150 ? 'YES' : 'NO');
