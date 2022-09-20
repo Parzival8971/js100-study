@@ -3,23 +3,25 @@
 
 // Answer
 //Omuing 0
-const num = ["2", "6"];
-console.log(Math.pow(parseInt(num[0], 10), parseInt(num[1], 10)));
-//Omuing 1
-//// 🙈 Oum 1 - 2회독 중
-const num = ["2", "6"];
-console.log(Math.pow(parseInt(num[0], 10), parseInt(num[1], 10))); // Math.pow(2,3) 메서드 2의3승
-//// 🙈 Oum 1 - 2회독 중
-function free(a, b) {
-  let result = 1;
-  for (let i = 0; i < b; i++) {
-    result = result * a;
-  }
-  console.log(result);
-}
-free(2, 6);
+// const num = ["2", "6"];
+// console.log(Math.pow(parseInt(num[0], 10), parseInt(num[1], 10)));
+// //Omuing 1
+// //// 🙈 Oum 1 - 2회독 중
+// const num = ["2", "6"];
+// console.log(Math.pow(parseInt(num[0], 10), parseInt(num[1], 10))); // Math.pow(2,3) 메서드 2의3승
+// //// 🙈 Oum 1 - 2회독 중
+// function free(a, b) {
+//   let result = 1;
+//   for (let i = 0; i < b; i++) {
+//     result = result * a;
+//   }
+//   console.log(result);
+// }
+// free(2, 6);
 
-//sjshin
+//😎 sjshin
+// const numset = [2, 6];
+// console.log(Math.pow(numset[0],numset[1])) //64
 
 //🌸 sePark 🌸
 // function multiple(a, b) {

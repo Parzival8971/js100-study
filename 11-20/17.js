@@ -5,25 +5,32 @@
 
 // Answer
 //Omuing 0
-const heightUp = [170, 179, 180, 185];
-for (let i = 1; i <= heightUp.length; i++) {
-//// 🙈 Oum 1 - 2회독 중
-const heightUp = [170, 179, 180, 185];
-for (let i = 0; i < heightUp.length; i++) {
-  if (heightUp[i] >= 180) {
-    console.log(i, "번째", "180이 넘으시네요!");
-  } else {
-    console.log(i, "번째", "하하 우유좀 마셔야겠는걸?");
-  }
-}
-// 일반 답안
-const height = prompt("키를 입력하세요.");
-if (height >= 150) {
-  console.log("YES");
-} else {
-  console.log("NO");
-}
-//sjshin
+// const heightUp = [170, 179, 180, 185];
+// for (let i = 1; i <= heightUp.length; i++) {
+// //// 🙈 Oum 1 - 2회독 중
+// const heightUp = [170, 179, 180, 185];
+// for (let i = 0; i < heightUp.length; i++) {
+//   if (heightUp[i] >= 180) {
+//     console.log(i, "번째", "180이 넘으시네요!");
+//   } else {
+//     console.log(i, "번째", "하하 우유좀 마셔야겠는걸?");
+//   }
+// }
+// // 일반 답안
+// const height = prompt("키를 입력하세요.");
+// if (height >= 150) {
+//   console.log("YES");
+// } else {
+//   console.log("NO");
+// }
+
+//😎 sjshin
+// const aboard = height => {
+//   return height >= 150 ? 'yes' : 'no';
+// };
+// aboard(120); //"no"
+// aboard(150); //"yes"
+// aboard(180); //"yes"
 
 //🌸 sePark 🌸
 // function limitHeight(height) {
