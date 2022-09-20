@@ -15,6 +15,17 @@
 
 // Answer
 //// 🙈 Oum 1회독
+const n = '1 3 8 4 2 5'.split(' ');
+n.sort();
+function solution(n) {
+  for (let i = 0; i < n.length - 1; i++) {
+    if (Number(n[i]) + 1 !== Number(n[i + 1])) {
+      return 'NO';
+    }
+  }
+  return 'YES';
+}
+console.log(solution(n));
 
 //sjshin
 
