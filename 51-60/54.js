@@ -14,7 +14,7 @@
 // NO
 
 // Answer
-//// 🙈 Oum 1회독
+// 🙈 Oum 1회독
 const n = '1 3 8 4 2 5'.split(' ');
 n.sort();
 function solution(n) {

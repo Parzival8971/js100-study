@@ -20,8 +20,8 @@
 // console.log(quickSort(array));
 
 // Answer
-//// 🙈 Oum 1회독 => 풀려면 재귀함수에 대해 알아야함. 아직 못품
-const quickSort = arr => {
+// 🙈 Oum 1회독 => 풀려면 재귀함수에 대해 알아야함. 아직 못품
+const quickSort = (arr) => {
   if (arr.length <= 1) {
     return arr;
   }
