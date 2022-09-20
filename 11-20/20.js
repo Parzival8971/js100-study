@@ -7,21 +7,25 @@
 
 // Answer
 //// 🙈 Oum 1 - 2회독 중
-const nums = ["7", "2"];
-let valueFirst = Math.floor(parseInt(nums[0], 10) / parseInt(nums[1], 10));
-console.log(valueFirst);
-let valueSecond = parseInt(nums[0], 10) % parseInt(nums[1], 10);
-console.log(valueFirst, valueSecond);
+// const nums = ["7", "2"];
+// let valueFirst = Math.floor(parseInt(nums[0], 10) / parseInt(nums[1], 10));
+// console.log(valueFirst);
+// let valueSecond = parseInt(nums[0], 10) % parseInt(nums[1], 10);
+// console.log(valueFirst, valueSecond);
 
-//sjshin
+//😎 sjshin
+// const numset = [10, 2];
+// const quotientValue = numset[0]/numset[1] //몫
+// const restValue = numset[0]%numset[1]  //나머지
+// console.log(quotientValue, restValue) // 5 0
 
 // 🌸 sePark 🌸
-function devide(a, b) {
-  let quotient = a / b;
-  let remainder = a % b;
-  console.log(quotient, remainder);
-}
-devide(10, 2);
+// function devide(a, b) {
+//   let quotient = a / b;
+//   let remainder = a % b;
+//   console.log(quotient, remainder);
+// }
+// devide(10, 2);
 
 // YS.kim
 // const mokNamuge = (first, second) => {

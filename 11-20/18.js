@@ -5,23 +5,29 @@
 // Answer
 //Omuing 0
 //// 🙈 Oum 1 - 2회독 중
-const scores = ["70", "82", "95"];
-let sum = 0;
-for (let i = 0; i < scores.length; i++) {
-  sum = sum + parseInt(scores[i], 10);
-}
-console.log(Math.floor(sum / scores.length));
-//Omuinge 답안
-//// 🙈 Oum 2 정답 답안
-const scores = prompt().split(" ");
-console.log(scores);
-let sum = 0;
-for (let i = 0; i < scores.length; i++) {
-  sum = sum + parseInt(scores[i], 10);
-}
-console.log(Math.floor(sum / scores.length));
+// const scores = ["70", "82", "95"];
+// let sum = 0;
+// for (let i = 0; i < scores.length; i++) {
+//   sum = sum + parseInt(scores[i], 10);
+// }
+// console.log(Math.floor(sum / scores.length));
+// //Omuinge 답안
+// //// 🙈 Oum 2 정답 답안
+// const scores = prompt().split(" ");
+// console.log(scores);
+// let sum = 0;
+// for (let i = 0; i < scores.length; i++) {
+//   sum = sum + parseInt(scores[i], 10);
+// }
+// console.log(Math.floor(sum / scores.length));
 
-//sjshin
+// 😎 sjshin
+// const scores = [20, 30.8, 46, 60, 6]
+// let sum = 0;
+// for (let i = 0; i < scores.length; i++) {
+//      sum += scores[i];
+//   }                                         //162.8
+// console.log(Math.floor(sum/scores.length)) //32
 
 //🌸 sePark 🌸
 // function average(sub1, sub2, sub3) {
