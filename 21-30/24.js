@@ -4,24 +4,29 @@
 // 어떤 이는 전부 대문자로 써져 있는 등 형식이 제각각이었습니다.
 // 민지를 위해 이름이 입력되면 전부 대문자로 출력되는 프로그램을 만들어주세요.
 
-입출력;
-입력: mary;
-출력: MARY;
+// 입출력;
+// 입력: mary;
+// 출력: MARY;
 
 // Answer
 // 🙈 Oum 1 - 2회독 중
-const testName = "Front-end";
-console.log(testName.toUpperCase());
-console.log(testName.toLowerCase());
+// const testName = "Front-end";
+// console.log(testName.toUpperCase());
+// console.log(testName.toLowerCase());
 
-//sjshin
+//😎 sjshin
+// const nameChange = (name) => {
+//   console.log(name.toUpperCase());
+// }
+// nameChange("soojung");
+// nameChange("marry");
 
 // 🌸 sePark 🌸
-function upperCase(name) {
-  console.log(name.toUpperCase());
-}
+// function upperCase(name) {
+//   console.log(name.toUpperCase());
+// }
 
-upperCase("marry");
+// upperCase("marry");
 
 //kh
 // const name = prompt("이름을 입력하세요.");
