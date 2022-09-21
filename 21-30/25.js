@@ -5,24 +5,29 @@
 
 // Answer
 // 🙈 Oum 1 - 2회독 중
-function circleWidth(n) {
-  return n * n * 3.14;
-}
-console.log(circleWidth(5));
+// function circleWidth(n) {
+//   return n * n * 3.14;
+// }
+// console.log(circleWidth(5));
 // 🙈 Oum 1 - 2회독 중
-const circleWidth = (n) => {
-  return n * n * 3.14;
-};
-console.log(circleWidth(5));
-//sjshin
+// const circleWidth = (n) => {
+//   return n * n * 3.14;
+// };
+// console.log(circleWidth(5));
+
+//😎 sjshin
+// const circleWidth = (n) =>{
+//   console.log(n*n*3.14);
+// }
+// circleWidth(8);
 
 // 🌸 sePark 🌸
-function widthCircle(halfWidth) {
-  return halfWidth * halfWidth * 3.14;
-}
-console.log(widthCircle(3));
+// function widthCircle(halfWidth) {
+//   return halfWidth * halfWidth * 3.14;
+// }
+// console.log(widthCircle(3));
 
 //kh
-function getCircleWidth(n) {
-  return n * n * 3.14;
-}
+// function getCircleWidth(n) {
+//   return n * n * 3.14;
+// }

@@ -6,28 +6,28 @@
 // Answer
 //// 🙈 Oum 1 - 2회독 중
 // split() 배열을 만들어 반환한다. '' 을 넣으 ,으로 구분 짓는다.
-const keys = ["babys", "johns"];
-const values = ["90", "10"];
-let obj = {};
-for (let i = 0; i < keys.length; i++) {
-  obj[keys[i]] = values[i];
-}
-console.log(obj);
+// const keys = ['babys', 'johns'];
+// const values = ['90', '10'];
+// let obj = {};
+// for (let i = 0; i < keys.length; i++) {
+//   obj[keys[i]] = values[i];
+// }
+// console.log(obj);
 // Obj.babys = '90' 처럼 생각하면 됨
 
-//sjshin
+//😎 sjshin
 
 // 🌸 sePark 🌸
-function returnObject(a, b) {
-  let splitA = a.split(" ");
-  let splitB = b.split(" ");
-  let object = {};
-  for (let i = 0; i < splitA.length; i++) {
-    object[splitA[i]] = splitB[i];
-  }
-  return object;
-}
-returnObject("Yujin Hyewon", "70 100");
+// function returnObject(a, b) {
+//   let splitA = a.split(' ');
+//   let splitB = b.split(' ');
+//   let object = {};
+//   for (let i = 0; i < splitA.length; i++) {
+//     object[splitA[i]] = splitB[i];
+//   }
+//   return object;
+// }
+// returnObject('Yujin Hyewon', '70 100');
 
 //kh
 // const name = prompt("이름을 입력하세요.").split(" ");
