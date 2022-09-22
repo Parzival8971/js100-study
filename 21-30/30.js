@@ -20,6 +20,7 @@
 // const index = "펜파인애플애플펜"
 // const keyword = "애플"
 // console.log(index.indexOf(keyword)); // 3
+//git test
 
 // 🌸 sePark 🌸
 // function find(words, keywords) {
