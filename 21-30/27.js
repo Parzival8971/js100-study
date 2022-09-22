@@ -16,6 +16,17 @@
 // Obj.babys = '90' 처럼 생각하면 됨
 
 //😎 sjshin
+//for문을 이용해 입력한 배열을 객체 안의 키와 값으로 반환.
+// const keys = ["sj", "sh"];
+// const values = ["40", "50"];
+
+// let obj = {};
+
+// for (let i= 0; i < keys.length; i++) {
+//   obj[keys[i]] = values[i];
+// }
+
+// console.log (obj); //{ sj: '40', sh: '50' }
 
 // 🌸 sePark 🌸
 // function returnObject(a, b) {
