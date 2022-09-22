@@ -12,18 +12,22 @@
 
 // Answer
 //// 🙈 Oum 1 - 2회독 중
-const words = "파인애플은 정말 맛있습니다.";
-const keywords = "애플";
-console.log(words.indexOf(keywords));
+// const words = "파인애플은 정말 맛있습니다.";
+// const keywords = "애플";
+// console.log(words.indexOf(keywords));
 
-//sjshin
+// 😎 sjshin
+// const index = "펜파인애플애플펜"
+// const keyword = "애플"
+// console.log(index.indexOf(keyword)); // 3
+//git test
 
 // 🌸 sePark 🌸
-function find(words, keywords) {
-  return words.indexOf(keywords);
-}
+// function find(words, keywords) {
+//   return words.indexOf(keywords);
+// }
 
-find("파인애플은 정말 맛있습니다.", "애플");
+// find("파인애플은 정말 맛있습니다.", "애플");
 
 //kh
 // const word = prompt("문자열과 찾을 단어를 입력하세요.").split(" ");
