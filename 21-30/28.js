@@ -18,19 +18,25 @@
 
 // Answer
 //// 🙈 Oum 1 - 2회독 중
-const words = "안녕하세용";
-for (let i = 0; i < words.length - 1; i++) {
-  console.log(words[i], words[i + 1]);
-}
-//sjshin
+// const words = "안녕하세용";
+// for (let i = 0; i < words.length - 1; i++) {
+//   console.log(words[i], words[i + 1]);
+// }
+// 😎 sjshin
+// const twogram = (text) =>{
+//   for (let i=0; i<text.length-1; i++) {
+//     console.log(text[i], text[i+1]);
+//   }
+// }
+// twogram("Javascript");
 
 // 🌸 sePark 🌸
-function twoGram(word) {
-  for (let i = 0; i < word.length - 1; i++) {
-    console.log(word[i], word[i + 1]);
-  }
-}
-twoGram(Javascript);
+// function twoGram(word) {
+//   for (let i = 0; i < word.length - 1; i++) {
+//     console.log(word[i], word[i + 1]);
+//   }
+// }
+// twoGram(Javascript);
 
 //kh
 // const word = prompt("단어를 입력하세요.");

@@ -5,24 +5,37 @@
 
 // Answer
 //// 🙈 Oum 1 - 2회독 중
-const words = "b";
-if (words === words.toUpperCase()) {
-  console.log("대문자");
-} else {
-  console.log("소문자");
-}
-//sjshin
+// const words = "b";
+// if (words === words.toUpperCase()) {
+//   console.log("대문자");
+// } else {
+//   console.log("소문자");
+// }
+
+// 😎 sjshin
+// const isUPPER = (alphabet) => {
+//   if (alphabet === alphabet.toUpperCase()) {
+//     return "YES"
+//   } else {
+//     return "NO"
+//   }
+// }
+// isUPPER("B") //"YES"
+// isUPPER("a") //"NO"
+
+// 삼항연산자
+// alphabet === alphabet.toUpperCase() ? "YES" : "NO"
 
 // 🌸 sePark 🌸
-function upper(letter) {
-  if (letter === letter.toUpperCase()) {
-    console.log("YES");
-  } else {
-    console.log("NO");
-  }
-}
+// function upper(letter) {
+//   if (letter === letter.toUpperCase()) {
+//     console.log("YES");
+//   } else {
+//     console.log("NO");
+//   }
+// }
 
-upper("c");
+// upper("c");
 
 //kh
 // const word = prompt("문자를 입력하세요.");
