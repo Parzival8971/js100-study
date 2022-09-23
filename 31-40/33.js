@@ -9,26 +9,30 @@
 
 // Answer
 //// 🙈 Oum 1 회독중 어려움 메모
-const nums = "1 2 3 4 5"
-const array = nums.split(" ").reverse()
-console.log(array)
-let reverseValue = "";
-for(let i =0; i< array.length; i++) {
-  reverseValue = reverseValue + array[i] + " "
-}
-console.log(reverseValue)
-//sjshin
+// const nums = "1 2 3 4 5"
+// const array = nums.split(" ").reverse()
+// console.log(array)
+// let reverseValue = "";
+// for(let i =0; i< array.length; i++) {
+//   reverseValue = reverseValue + array[i] + " "
+// }
+// console.log(reverseValue)
 
+// 😎 sjshin
+// const numberReverse = (number) => {
+//   return number.split("").reverse().join("");
+// }
+// numberReverse("1 2 3 4 5"); //'5 4 3 2 1'
 
 // 🌸 sePark 🌸
-function reversNumbers(numbers) {
-  let numsArray = numbers.split(' ');
-  let result = '';
-  for(let i = numsArray.length-1 ; i >= 0; i--){
-    result += numsArray[i] + " "
-  }
-  result = result.slice(0, -1)
-  console.log(result)
-}
+// function reversNumbers(numbers) {
+//   let numsArray = numbers.split(' ');
+//   let result = '';
+//   for(let i = numsArray.length-1 ; i >= 0; i--){
+//     result += numsArray[i] + " "
+//   }
+//   result = result.slice(0, -1)
+//   console.log(result)
+// }
 
-reversNumbers('1 2 3 4 5')
+// reversNumbers('1 2 3 4 5')
