@@ -7,22 +7,33 @@
 
 // Answer
 //// 🙈 Oum 1 회독중
-const num = 2;
-let result = "";
-for(let i=0; i<9; i++) {
-	result = result + num * (i+1) + " ";
-}
-console.log(result)
-//sjshin
+// const num = 2;
+// let result = "";
+// for(let i=0; i<9; i++) {
+// 	result = result + num * (i+1) + " ";
+// }
+// console.log(result)
+
+//😎 sjshin
+// const gugudan = (num) => {
+//   let result = "";
+//   for(let i=1; i<10; i++) {
+//     result += num*i+" ";
+//   }
+//     result = result.slice(0,-1);
+//   return result;
+// }
+// gugudan(4) //'4 8 12 16 20 24 28 32 36'
+// gugudan(9) //'9 18 27 36 45 54 63 72 81'
 
 // 🌸 sePark 🌸
-function toTimesTable(a) {
-  let result = "";
-	for(let i = 1; i < 10; i++){
-		result += a * i + " "
-	}
-  result = result.slice(0, -1)
-	return result
-}
+// function toTimesTable(a) {
+//   let result = "";
+// 	for(let i = 1; i < 10; i++){
+// 		result += a * i + " "
+// 	}
+//   result = result.slice(0, -1)
+// 	return result
+// }
 
-console.log(toTimesTable(2))
+// console.log(toTimesTable(2))
