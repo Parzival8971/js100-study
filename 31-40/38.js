@@ -10,34 +10,58 @@
 
 // Answer
 //// 🙈 Oum 1 회독중 어려움;;
-const scores = ['97', '86', '75', '66', '55', '97', '85', '97', '97', '95']
-scores.sort((a,b)=>{
-  return a - b
-})
-console.log(scores)
-let top3 = [];
-let count = 0;
+// const scores = ['97', '86', '75', '66', '55', '97', '85', '97', '97', '95']
+// scores.sort((a,b)=>{
+//   return a - b
+// })
+// console.log(scores)
+// let top3 = [];
+// let count = 0;
 
-while (top3.length < 4) {
-	let value = scores.pop();
-  if (!top3.includes(value)){
-    top3.push(value); 
-  }
-  count++;
-}
-console.log(top3);
-console.log(count - 1);
+// while (top3.length < 4) {
+// 	let value = scores.pop();
+//   if (!top3.includes(value)){
+//     top3.push(value);
+//   }
+//   count++;
+// }
+// console.log(top3);
+// console.log(count - 1);
 
-//sjshin
+//😎 sjshin
+//38번 문제
+// const scores = ['97', '86', '75', '66', '55', '97', '85', '97', '97', '95'];
+
+// scores.sort();  //[ '55', '66', '75', '85', '86', '95', '97', '97', '97', '97' ] 오름차순
+
+// // scores.sort(function(a,b) {
+// //   return b-a;
+// // })
+// // // [ '97', '97', '97', '97', '95', '86', '85', '75', '66', '55' ] //내림차순정리는 이렇게!
+
+// let top3 = []; //1등부터 3등까지의 학생의 점수
+// let count = 0; //1등부터 3등까지의 학생들의 수
+// //while 반복문!
+// while(top3.length<3) {
+//   let value = scores.pop(); //scores배열의 가장 끝 애를 뽑아내기
+//   if(!top3.includes(value)){ //top3안에 value값이 없다면?
+//     top3.push(value); //뽑아낸 애를 top3 배열에 담기
+//   }
+//   count++; //학생들의 수를 구해야하기 때문에....!
+// }
+
+// console.log(top3); //[ '97', '95', '86' ] 1등부터 3등까지의 점수
+// console.log(count); // 6 .. 하지만 이 풀이는 3등의 점수가 많을 경우 문제가 됨...! 왜냐면 while반복문의 조건 top3.length<3 때문인데
+// // while(top3.length<4) 조건을 바꿔서 작성하고 count값에 -1을 해주면 된다......!하하하하하 console.log(count-1);
 
 // 🌸 sePark 🌸
 
 // function findTop(scores) {
 //   let arrScores = scores.split(' ');
 //   let result = {};
- 
+
 //   arrScores.forEach(score => {
-//     result[score] = (result[score] || 0)+1         
+//     result[score] = (result[score] || 0)+1
 //   })
 
 // let keys = Object.keys(result)
@@ -54,7 +78,7 @@ console.log(count - 1);
 //   }
 
 //   return sumKeys
- 
+
 // }
- 
+
 //  findTop("97 86 75 66 55 97 85 97 97 95")
