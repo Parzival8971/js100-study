@@ -6,6 +6,18 @@
 
 // Answer
 //// 🙈 Oum 1회독
+const n = 10000000;
+console.log(n.toLocaleString());
+
+function comma(s) {
+  if (s.length <= 3) {
+    return s;
+  } else {
+    return comma(s.slice(0, s.length - 3)) + ',' + s.slice(s.length - 3);
+  }
+}
+
+console.log(comma('123456789'));
 
 //😎 sjshin
 
